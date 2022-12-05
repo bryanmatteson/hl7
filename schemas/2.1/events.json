@@ -1,0 +1,2439 @@
+[
+    {
+        "id": "ADT_A01",
+        "msgStructId": "ADT_A01",
+        "eventDesc": "Admit a Patient",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "NK1",
+                "name": "NK1",
+                "longName": "Next Of Kin",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "5",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "6",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A02",
+        "msgStructId": "ADT_A02",
+        "eventDesc": "Transfer a Patient",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A03",
+        "msgStructId": "ADT_A03",
+        "eventDesc": "Discharge a Patient",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A04",
+        "msgStructId": "ADT_A04",
+        "eventDesc": "Register a Patient",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "NK1",
+                "name": "NK1",
+                "longName": "Next Of Kin",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "5",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "6",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A05",
+        "msgStructId": "ADT_A05",
+        "eventDesc": "admit a Patient",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "NK1",
+                "name": "NK1",
+                "longName": "Next Of Kin",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "5",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "6",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A06",
+        "msgStructId": "ADT_A06",
+        "eventDesc": "Transfer an Outpatient to Inpatient",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A07",
+        "msgStructId": "ADT_A07",
+        "eventDesc": "Transfer an Inpatient to Outpatient",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A08",
+        "msgStructId": "ADT_A08",
+        "eventDesc": "Update Patient Information",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "NK1",
+                "name": "NK1",
+                "longName": "Next Of Kin",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "5",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "6",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A09",
+        "msgStructId": "ADT_A09",
+        "eventDesc": "Patient Departing",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A10",
+        "msgStructId": "ADT_A10",
+        "eventDesc": "Patient Arriving",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A11",
+        "msgStructId": "ADT_A11",
+        "eventDesc": "Cancel Admit",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A12",
+        "msgStructId": "ADT_A12",
+        "eventDesc": "Cancel Transfer",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A13",
+        "msgStructId": "ADT_A13",
+        "eventDesc": "Cancel Discharge",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A14",
+        "msgStructId": "ADT_A14",
+        "eventDesc": "Pending Admit",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PD1",
+                "name": "PD1",
+                "longName": "Patient Demographics",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "NK1",
+                "name": "NK1",
+                "longName": "Next Of Kin",
+                "sequence": "5",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "6",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "7",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A15",
+        "msgStructId": "ADT_A15",
+        "eventDesc": "Pending Transfer",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A16",
+        "msgStructId": "ADT_A16",
+        "eventDesc": "Pending Discharge",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DG1",
+                "name": "DG1",
+                "longName": "Diagnosis",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A17",
+        "msgStructId": "ADT_A17",
+        "eventDesc": "Swap Patients",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "",
+                "name": "PATIENT",
+                "longName": "",
+                "sequence": "",
+                "usage": "R",
+                "rpt": "*",
+                "isGroup": true,
+                "segments": [
+                    {
+                        "id": "PID",
+                        "name": "PID",
+                        "longName": "Patient Identification",
+                        "sequence": "3",
+                        "usage": "R",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "PV1",
+                        "name": "PV1",
+                        "longName": "Patient Visit",
+                        "sequence": "4",
+                        "usage": "R",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ADT_A18",
+        "msgStructId": "ADT_A18",
+        "eventDesc": "Merge Patient Information",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "MRG",
+                "name": "MRG",
+                "longName": "Merge Patient Information",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A20",
+        "msgStructId": "ADT_A20",
+        "eventDesc": "Nursing/Census Application Updates",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "NPU",
+                "name": "NPU",
+                "longName": "Non-patient Update",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A21",
+        "msgStructId": "ADT_A21",
+        "eventDesc": "A Patient Goes On A \"Leave Of Absence\"",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A22",
+        "msgStructId": "ADT_A22",
+        "eventDesc": "A Patient Returns From A \"Leave Of Absence\"",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A23",
+        "msgStructId": "ADT_A23",
+        "eventDesc": "Delete a Patient Record",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ADT_A24",
+        "msgStructId": "ADT_A24",
+        "eventDesc": "Create a Patient Link Transaction",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Additional Patient Identification",
+                "sequence": "5",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "BAR_P01",
+        "msgStructId": "BAR_P01",
+        "eventDesc": "Add and Update Patient Accounts",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "",
+                "name": "VISIT",
+                "longName": "",
+                "sequence": "",
+                "usage": "R",
+                "rpt": "*",
+                "isGroup": true,
+                "segments": [
+                    {
+                        "id": "PV1",
+                        "name": "PV1",
+                        "longName": "Patient Visit",
+                        "sequence": "4",
+                        "usage": "O",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "DG1",
+                        "name": "DG1",
+                        "longName": "Diagnosis",
+                        "sequence": "5",
+                        "usage": "O",
+                        "rpt": "*",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "PR1",
+                        "name": "PR1",
+                        "longName": "Procedures",
+                        "sequence": "6",
+                        "usage": "O",
+                        "rpt": "*",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "GT1",
+                        "name": "GT1",
+                        "longName": "Guarantor",
+                        "sequence": "7",
+                        "usage": "O",
+                        "rpt": "*",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "NK1",
+                        "name": "NK1",
+                        "longName": "Next Of Kin",
+                        "sequence": "8",
+                        "usage": "O",
+                        "rpt": "*",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "IN1",
+                        "name": "IN1",
+                        "longName": "Insurance",
+                        "sequence": "9",
+                        "usage": "O",
+                        "rpt": "*",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "ACC",
+                        "name": "ACC",
+                        "longName": "Accident",
+                        "sequence": "10",
+                        "usage": "O",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "UB1",
+                        "name": "UB1",
+                        "longName": "Ub82 Data",
+                        "sequence": "11",
+                        "usage": "O",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "BAR_P02",
+        "msgStructId": "BAR_P02",
+        "eventDesc": "Purge Patient Accounts",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "",
+                "name": "PATIENT",
+                "longName": "",
+                "sequence": "",
+                "usage": "R",
+                "rpt": "*",
+                "isGroup": true,
+                "segments": [
+                    {
+                        "id": "PID",
+                        "name": "PID",
+                        "longName": "Patient Identification",
+                        "sequence": "3",
+                        "usage": "R",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "PV1",
+                        "name": "PV1",
+                        "longName": "Patient Visit",
+                        "sequence": "4",
+                        "usage": "O",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "DFT_P03",
+        "msgStructId": "DFT_P03",
+        "eventDesc": "Post Detail Financial Transactions",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "EVN",
+                "name": "EVN",
+                "longName": "Event Type",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PID",
+                "name": "PID",
+                "longName": "Patient Identification",
+                "sequence": "3",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "PV1",
+                "name": "PV1",
+                "longName": "Patient Visit",
+                "sequence": "4",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "FT1",
+                "name": "FT1",
+                "longName": "Financial Transaction",
+                "sequence": "5",
+                "usage": "O",
+                "rpt": "*",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "DSR_Q03",
+        "msgStructId": "DSR_Q03",
+        "eventDesc": "Deferred Response to A Query",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "QRD",
+                "name": "QRD",
+                "longName": "Query Definition",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "QRF",
+                "name": "QRF",
+                "longName": "Query Filter",
+                "sequence": "3",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DSP",
+                "name": "DSP",
+                "longName": "Display Data",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "*",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DSC",
+                "name": "DSC",
+                "longName": "Continuation Pointer",
+                "sequence": "5",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "ORM_O01",
+        "msgStructId": "ORM_O01",
+        "eventDesc": "Order Message",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "NTE",
+                "name": "NTE",
+                "longName": "Notes And Comments",
+                "sequence": "2",
+                "usage": "O",
+                "rpt": "*",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "",
+                "name": "PATIENT",
+                "longName": "",
+                "sequence": "",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": true,
+                "segments": [
+                    {
+                        "id": "PID",
+                        "name": "PID",
+                        "longName": "Patient Identification",
+                        "sequence": "3",
+                        "usage": "R",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "NTE",
+                        "name": "NTE",
+                        "longName": "Notes And Comments",
+                        "sequence": "4",
+                        "usage": "O",
+                        "rpt": "*",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "PV1",
+                        "name": "PV1",
+                        "longName": "Patient Visit",
+                        "sequence": "5",
+                        "usage": "O",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "",
+                        "name": "ORDER",
+                        "longName": "",
+                        "sequence": "",
+                        "usage": "R",
+                        "rpt": "*",
+                        "isGroup": true,
+                        "segments": [
+                            {
+                                "id": "ORC",
+                                "name": "ORC",
+                                "longName": "Common Order",
+                                "sequence": "6",
+                                "usage": "R",
+                                "rpt": "1",
+                                "isGroup": false,
+                                "segments": null
+                            },
+                            {
+                                "id": "",
+                                "name": "ORDER_DETAIL",
+                                "longName": "",
+                                "sequence": "",
+                                "usage": "O",
+                                "rpt": "1",
+                                "isGroup": true,
+                                "segments": [
+                                    {
+                                        "id": "OBR",
+                                        "name": "OBR",
+                                        "longName": "Observation Request",
+                                        "sequence": "7",
+                                        "usage": "R",
+                                        "rpt": "1",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "NTE",
+                                        "name": "NTE",
+                                        "longName": "Notes And Comments",
+                                        "sequence": "8",
+                                        "usage": "O",
+                                        "rpt": "*",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "OBX",
+                                        "name": "OBX",
+                                        "longName": "Result",
+                                        "sequence": "9",
+                                        "usage": "O",
+                                        "rpt": "*",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "NTE",
+                                        "name": "NTE",
+                                        "longName": "Additional Notes And Comments",
+                                        "sequence": "10",
+                                        "usage": "O",
+                                        "rpt": "*",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "BLG",
+                                        "name": "BLG",
+                                        "longName": "Billing",
+                                        "sequence": "11",
+                                        "usage": "O",
+                                        "rpt": "1",
+                                        "isGroup": false,
+                                        "segments": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ORR_O02",
+        "msgStructId": "ORR_O02",
+        "eventDesc": "Respone Message",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "MSA",
+                "name": "MSA",
+                "longName": "Message Acknowledgment",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "NTE",
+                "name": "NTE",
+                "longName": "Notes And Comments",
+                "sequence": "3",
+                "usage": "O",
+                "rpt": "*",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "",
+                "name": "PATIENT",
+                "longName": "",
+                "sequence": "",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": true,
+                "segments": [
+                    {
+                        "id": "PID",
+                        "name": "PID",
+                        "longName": "Patient Identification",
+                        "sequence": "4",
+                        "usage": "O",
+                        "rpt": "1",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "NTE",
+                        "name": "NTE",
+                        "longName": "Notes And Comments",
+                        "sequence": "5",
+                        "usage": "O",
+                        "rpt": "*",
+                        "isGroup": false,
+                        "segments": null
+                    },
+                    {
+                        "id": "",
+                        "name": "ORDER",
+                        "longName": "",
+                        "sequence": "",
+                        "usage": "R",
+                        "rpt": "*",
+                        "isGroup": true,
+                        "segments": [
+                            {
+                                "id": "ORC",
+                                "name": "ORC",
+                                "longName": "Common Order",
+                                "sequence": "6",
+                                "usage": "R",
+                                "rpt": "1",
+                                "isGroup": false,
+                                "segments": null
+                            },
+                            {
+                                "id": "",
+                                "name": "ORDER_DETAIL",
+                                "longName": "",
+                                "sequence": "",
+                                "usage": "O",
+                                "rpt": "1",
+                                "isGroup": true,
+                                "segments": [
+                                    {
+                                        "id": "OBR",
+                                        "name": "OBR",
+                                        "longName": "Observation Request",
+                                        "sequence": "7",
+                                        "usage": "R",
+                                        "rpt": "1",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "NTE",
+                                        "name": "NTE",
+                                        "longName": "Notes And Comments",
+                                        "sequence": "8",
+                                        "usage": "O",
+                                        "rpt": "*",
+                                        "isGroup": false,
+                                        "segments": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ORU_R01",
+        "msgStructId": "ORU_R01",
+        "eventDesc": "Unsolicited transmission of requested Obersvation",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "",
+                "name": "PATIENT_RESULT",
+                "longName": "",
+                "sequence": "",
+                "usage": "R",
+                "rpt": "*",
+                "isGroup": true,
+                "segments": [
+                    {
+                        "id": "",
+                        "name": "PATIENT",
+                        "longName": "",
+                        "sequence": "",
+                        "usage": "O",
+                        "rpt": "1",
+                        "isGroup": true,
+                        "segments": [
+                            {
+                                "id": "PID",
+                                "name": "PID",
+                                "longName": "Patient Identification",
+                                "sequence": "2",
+                                "usage": "R",
+                                "rpt": "1",
+                                "isGroup": false,
+                                "segments": null
+                            },
+                            {
+                                "id": "NTE",
+                                "name": "NTE",
+                                "longName": "Notes And Comments",
+                                "sequence": "3",
+                                "usage": "O",
+                                "rpt": "*",
+                                "isGroup": false,
+                                "segments": null
+                            },
+                            {
+                                "id": "PV1",
+                                "name": "PV1",
+                                "longName": "Patient Visit",
+                                "sequence": "4",
+                                "usage": "O",
+                                "rpt": "1",
+                                "isGroup": false,
+                                "segments": null
+                            },
+                            {
+                                "id": "",
+                                "name": "ORDER_OBSERVATION",
+                                "longName": "",
+                                "sequence": "",
+                                "usage": "R",
+                                "rpt": "*",
+                                "isGroup": true,
+                                "segments": [
+                                    {
+                                        "id": "ORC",
+                                        "name": "ORC",
+                                        "longName": "Common Order",
+                                        "sequence": "5",
+                                        "usage": "O",
+                                        "rpt": "1",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "OBR",
+                                        "name": "OBR",
+                                        "longName": "Observation Request",
+                                        "sequence": "6",
+                                        "usage": "R",
+                                        "rpt": "1",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "NTE",
+                                        "name": "NTE",
+                                        "longName": "Notes And Comments",
+                                        "sequence": "7",
+                                        "usage": "O",
+                                        "rpt": "*",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "",
+                                        "name": "OBSERVATION",
+                                        "longName": "",
+                                        "sequence": "",
+                                        "usage": "R",
+                                        "rpt": "*",
+                                        "isGroup": true,
+                                        "segments": [
+                                            {
+                                                "id": "OBX",
+                                                "name": "OBX",
+                                                "longName": "Result",
+                                                "sequence": "8",
+                                                "usage": "O",
+                                                "rpt": "1",
+                                                "isGroup": false,
+                                                "segments": null
+                                            },
+                                            {
+                                                "id": "NTE",
+                                                "name": "NTE",
+                                                "longName": "Notes And Comments",
+                                                "sequence": "9",
+                                                "usage": "O",
+                                                "rpt": "*",
+                                                "isGroup": false,
+                                                "segments": null
+                                            },
+                                            {
+                                                "id": "DSC",
+                                                "name": "DSC",
+                                                "longName": "Continuation Pointer",
+                                                "sequence": "10",
+                                                "usage": "O",
+                                                "rpt": "1",
+                                                "isGroup": false,
+                                                "segments": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ORU_R03",
+        "msgStructId": "ORU_R03",
+        "eventDesc": "Display oriented results, queyr/unsol. update",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "",
+                "name": "PATIENT_RESULT",
+                "longName": "",
+                "sequence": "",
+                "usage": "R",
+                "rpt": "*",
+                "isGroup": true,
+                "segments": [
+                    {
+                        "id": "",
+                        "name": "PATIENT",
+                        "longName": "",
+                        "sequence": "",
+                        "usage": "O",
+                        "rpt": "1",
+                        "isGroup": true,
+                        "segments": [
+                            {
+                                "id": "PID",
+                                "name": "PID",
+                                "longName": "Patient Identification",
+                                "sequence": "2",
+                                "usage": "R",
+                                "rpt": "1",
+                                "isGroup": false,
+                                "segments": null
+                            },
+                            {
+                                "id": "NTE",
+                                "name": "NTE",
+                                "longName": "Notes And Comments",
+                                "sequence": "3",
+                                "usage": "O",
+                                "rpt": "*",
+                                "isGroup": false,
+                                "segments": null
+                            },
+                            {
+                                "id": "PV1",
+                                "name": "PV1",
+                                "longName": "Patient Visit",
+                                "sequence": "4",
+                                "usage": "O",
+                                "rpt": "1",
+                                "isGroup": false,
+                                "segments": null
+                            },
+                            {
+                                "id": "",
+                                "name": "ORDER_OBSERVATION",
+                                "longName": "",
+                                "sequence": "",
+                                "usage": "R",
+                                "rpt": "*",
+                                "isGroup": true,
+                                "segments": [
+                                    {
+                                        "id": "ORC",
+                                        "name": "ORC",
+                                        "longName": "Common Order",
+                                        "sequence": "5",
+                                        "usage": "O",
+                                        "rpt": "1",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "OBR",
+                                        "name": "OBR",
+                                        "longName": "Observation Request",
+                                        "sequence": "6",
+                                        "usage": "R",
+                                        "rpt": "1",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "NTE",
+                                        "name": "NTE",
+                                        "longName": "Notes And Comments",
+                                        "sequence": "7",
+                                        "usage": "O",
+                                        "rpt": "*",
+                                        "isGroup": false,
+                                        "segments": null
+                                    },
+                                    {
+                                        "id": "",
+                                        "name": "OBSERVATION",
+                                        "longName": "",
+                                        "sequence": "",
+                                        "usage": "R",
+                                        "rpt": "*",
+                                        "isGroup": true,
+                                        "segments": [
+                                            {
+                                                "id": "OBX",
+                                                "name": "OBX",
+                                                "longName": "Result",
+                                                "sequence": "8",
+                                                "usage": "O",
+                                                "rpt": "1",
+                                                "isGroup": false,
+                                                "segments": null
+                                            },
+                                            {
+                                                "id": "NTE",
+                                                "name": "NTE",
+                                                "longName": "Notes And Comments",
+                                                "sequence": "9",
+                                                "usage": "O",
+                                                "rpt": "*",
+                                                "isGroup": false,
+                                                "segments": null
+                                            },
+                                            {
+                                                "id": "DSC",
+                                                "name": "DSC",
+                                                "longName": "Continuation Pointer",
+                                                "sequence": "10",
+                                                "usage": "O",
+                                                "rpt": "1",
+                                                "isGroup": false,
+                                                "segments": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "QRY_A19",
+        "msgStructId": "QRY_A19",
+        "eventDesc": "Patient Query",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "QRD",
+                "name": "QRD",
+                "longName": "Query Definition",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "QRY_Q01",
+        "msgStructId": "QRY_Q01",
+        "eventDesc": "A Query is Made for Immediate Response",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "QRD",
+                "name": "QRD",
+                "longName": "Query Definition",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "QRF",
+                "name": "QRF",
+                "longName": "Query Filter",
+                "sequence": "3",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DSC",
+                "name": "DSC",
+                "longName": "Continuation Pointer",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "QRY_Q02",
+        "msgStructId": "QRY_Q02",
+        "eventDesc": "A Query is Sent for Deferred Response",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "QRD",
+                "name": "QRD",
+                "longName": "Query Definition",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "QRF",
+                "name": "QRF",
+                "longName": "Query Filter",
+                "sequence": "3",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DSC",
+                "name": "DSC",
+                "longName": "Continuation Pointer",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    },
+    {
+        "id": "UDM_Q05",
+        "msgStructId": "UDM_Q05",
+        "eventDesc": "Unsolicited Updates, ODM Message, Trigger Event Q05",
+        "description": "",
+        "sample": "",
+        "chapters": [],
+        "segments": [
+            {
+                "id": "MSH",
+                "name": "MSH",
+                "longName": "Message Header",
+                "sequence": "1",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "URD",
+                "name": "URD",
+                "longName": "Results/update Definition",
+                "sequence": "2",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "URS",
+                "name": "URS",
+                "longName": "Unsolicited Selection",
+                "sequence": "3",
+                "usage": "O",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DSP",
+                "name": "DSP",
+                "longName": "Display Data",
+                "sequence": "4",
+                "usage": "R",
+                "rpt": "*",
+                "isGroup": false,
+                "segments": null
+            },
+            {
+                "id": "DSC",
+                "name": "DSC",
+                "longName": "Continuation Pointer",
+                "sequence": "5",
+                "usage": "R",
+                "rpt": "1",
+                "isGroup": false,
+                "segments": null
+            }
+        ]
+    }
+]

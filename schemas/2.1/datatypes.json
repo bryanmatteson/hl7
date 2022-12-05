@@ -1,0 +1,248 @@
+[
+    {
+        "id": "AD",
+        "type": "DataType",
+        "name": "Address",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "CE",
+        "type": "DataType",
+        "name": "Coded Element",
+        "description": "",
+        "fields": [
+            {
+                "id": "CE.1",
+                "type": "DataTypeComponent",
+                "position": "CE.1",
+                "length": 0,
+                "dataType": "ID",
+                "dataTypeName": "Coded Value",
+                "usage": "O",
+                "rpt": "1",
+                "tableId": "",
+                "tableName": "",
+                "name": "Identifier",
+                "description": ""
+            },
+            {
+                "id": "CE.2",
+                "type": "DataTypeComponent",
+                "position": "CE.2",
+                "length": 0,
+                "dataType": "ST",
+                "dataTypeName": "String Data",
+                "usage": "O",
+                "rpt": "1",
+                "tableId": "",
+                "tableName": "",
+                "name": "Text",
+                "description": ""
+            },
+            {
+                "id": "CE.3",
+                "type": "DataTypeComponent",
+                "position": "CE.3",
+                "length": 0,
+                "dataType": "ST",
+                "dataTypeName": "String Data",
+                "usage": "O",
+                "rpt": "1",
+                "tableId": "",
+                "tableName": "",
+                "name": "Name Of Coding System",
+                "description": ""
+            },
+            {
+                "id": "CE.4",
+                "type": "DataTypeComponent",
+                "position": "CE.4",
+                "length": 0,
+                "dataType": "ST",
+                "dataTypeName": "String Data",
+                "usage": "O",
+                "rpt": "1",
+                "tableId": "",
+                "tableName": "",
+                "name": "Alternate Identifier",
+                "description": ""
+            },
+            {
+                "id": "CE.5",
+                "type": "DataTypeComponent",
+                "position": "CE.5",
+                "length": 0,
+                "dataType": "ST",
+                "dataTypeName": "String Data",
+                "usage": "O",
+                "rpt": "1",
+                "tableId": "",
+                "tableName": "",
+                "name": "Alternate Text",
+                "description": ""
+            },
+            {
+                "id": "CE.6",
+                "type": "DataTypeComponent",
+                "position": "CE.6",
+                "length": 0,
+                "dataType": "ST",
+                "dataTypeName": "String Data",
+                "usage": "O",
+                "rpt": "1",
+                "tableId": "",
+                "tableName": "",
+                "name": "Name Of Alternate Coding System",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "id": "CE_0057",
+        "type": "DataType",
+        "name": "",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "CK",
+        "type": "DataType",
+        "name": "Composite Id With Check Digit",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "CM",
+        "type": "DataType",
+        "name": "",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "CM_UNDEFINED",
+        "type": "DataType",
+        "name": "Undefined Cm Data Type",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "CN",
+        "type": "DataType",
+        "name": "Composite Id Number And Name",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "COMP_ID_DIGIT",
+        "type": "DataType",
+        "name": "Composite Id W/chk Digit",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "COMP_ID_NAME",
+        "type": "DataType",
+        "name": "Composite Id And Name",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "COMP_QUANT",
+        "type": "DataType",
+        "name": "Composite Quantity/units",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "CQ",
+        "type": "DataType",
+        "name": "Composite Quantity With Units",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "DT",
+        "type": "DataType",
+        "name": "Date",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "FT",
+        "type": "DataType",
+        "name": "Formatted Text Data",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "ID",
+        "type": "DataType",
+        "name": "Coded Value",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "NM",
+        "type": "DataType",
+        "name": "Numeric",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "PN",
+        "type": "DataType",
+        "name": "Person Name",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "SET_ID",
+        "type": "DataType",
+        "name": "Set Id",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "SI",
+        "type": "DataType",
+        "name": "Set Id",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "ST",
+        "type": "DataType",
+        "name": "String Data",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "TM",
+        "type": "DataType",
+        "name": "Time",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "TN",
+        "type": "DataType",
+        "name": "Telephone Number",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "TS",
+        "type": "DataType",
+        "name": "Time Stamp",
+        "description": "",
+        "fields": []
+    },
+    {
+        "id": "TX",
+        "type": "DataType",
+        "name": "Text Data",
+        "description": "",
+        "fields": []
+    }
+]
